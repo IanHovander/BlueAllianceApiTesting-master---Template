@@ -1,0 +1,34 @@
+:root {
+  /** 5026 colors **/
+  --primary-red:        #9A0000;
+  --highlight-red:      #C80F14;
+  --primary-light-grey: #CCCCCC;
+  --primary-black:      #1A1A1A;
+  --off-black:          #333333;
+  --background-color: var(--primary-light-grey);
+}
+
+@font-face {
+    font-family: 'tecko-regular';
+    src: url('../resources/fonts/teko-regular.woff2') format('woff2'),
+         url('../resources/fonts/teko-regular.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+* {
+  font-family: 'teko-regular';
+}
+
+.popupBody {
+  min-width: 300px; /* your desired width */
+  min-height: 500px;
+
+  position: relative;
+  background: var(--background-color);
+
+  font-family: 'teko-regular';
+  font-size:20px;
+  color: var(--primary-black);
+}
