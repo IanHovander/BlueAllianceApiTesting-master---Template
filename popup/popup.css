@@ -9,7 +9,7 @@
 }
 
 @font-face {
-    font-family: 'tecko-regular';
+    font-family: 'teko-regular';
     src: url('../resources/fonts/teko-regular.woff2') format('woff2'),
          url('../resources/fonts/teko-regular.woff') format('woff');
     font-weight: normal;
